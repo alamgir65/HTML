@@ -1,0 +1,13 @@
+.title{
+    color : red;
+    font-weight: bold;
+    
+}
+
+@media only screen and (max-width: 480px){
+    .title{
+        color: aqua;
+        font-weight: normal;
+        font-size: 150px;
+    }
+}

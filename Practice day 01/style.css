@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.banner-container{
+    background-image: url("/background.jpg") , linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-blend-mode: overlay;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.big{
+    display: flex;
+    gap: 10px;
+    font-size: 45px;
+}
+.red{
+    color: red;
+    font-weight: bold;
+}
+.normal{
+    color: white;
+    font-weight: bold;
+    
+}
+.description{
+    color: white;
+}
+.discover{
+    margin: 10px 5px;
+    padding: 8px;
+    color: white;
+    background-color: red;
+    border: none;
+    /* border-radius: 10px; */
+    padding-left: 10px;
+}
+.hire{
+    margin: 10px 5px;
+    padding: 8px;
+    /* color: white; */
+    /* background-color: green; */
+    border: none;
+    /* border-radius: 10px; */
+}

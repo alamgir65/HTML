@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-image: url("/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* display: flex; */
+    color: white;
+
+}
+.img{
+    width: 35px;
+    height: 35px;
+    padding-top: 30px;
+}
+.navbar{
+    display: flex;
+    color: white;
+    /* padding: 20px; */
+    gap: 400px;
+    justify-content: space-around;
+}
+.prog{
+    display: flex;
+    gap: 10px;
+    font-size:25px;
+}
+.list{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.half-width{
+    width: 35%;
+    padding: 0px 0px 0px 0px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.pic{
+    width: 90%;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+.btn{
+    color: white;
+    background-color: rgb(60, 159, 33);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 1px,10px;
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.expertise-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-around;
+}
+.expertise h1{
+    /* color: blue; */
+    padding-left: 450px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 70px;
+    align-items: center;
+    gap: 50px;
+    height: 50vh;
+}
+.skill{
+    display: flex;
+    gap: 20px;
+}
+.skill h3{
+    font-size: 30px;
+}
+.skill i{
+    font-size: 60px;
+}
+.exp{
+    font-size: 70px;
+    padding-left: 400px;
+}
+.blog{
+    display: flex;
+    gap: 10px;
+}
+.blog img{
+    width: 250px;
+    height: 200px;
+}
+.blogss{
+    padding: 40px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    /* padding: 20px; */
+    align-items: center;
+    gap: 30px;
+}
+.course{
+    padding: 0px;
+}
+.title{
+    padding-left: 400px;
+    color: rgb(16, 3, 3);
+    font-size: 50px;
+
+}
