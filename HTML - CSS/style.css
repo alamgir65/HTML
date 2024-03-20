@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(244, 239, 239);
+    font-weight: 600;
+    font-style: italic;
+}
+.title{
+    color:royalblue; font-size: 50px;
+    font-style: italic; 
+    font-weight:800px;
+    text-align: center;
+    background: linear-gradient(45deg,red,blue,yellow);
+    
+}
+#mama{
+    color:brown; font-size: 40px;
+}
+.p1{
+    color:rgb(21, 29, 14);
+}
+p{
+    color:darkgreen
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(189, 147, 147);
+    border: 5px solid black;
+    margin: 10px;
+    /* padding: 10px; */
+    padding-left: 80px;
+    padding-top: 60px;
+    padding-right: 40px;
+    box-shadow: 4px 4px 40px black;
+
+}
+.test{
+    background-color: blue;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    padding: 10;
+}
+.child{
+    background-color: green;
+    padding: 20px;
+    width: 50%;
+    height: 100vh;
+}
+
+.first{
+    background-color: red;
+    /* padding: 20px; */
+    width: 110px;
+    height: 20px;
+    /* display: inline; */
+    float: left;
+}
+
+.second{
+    background-color: blue;
+    /* padding: 20px; */
+    width: 150px;
+    height: 20px;
+    /* display: inline;
+     */
+    float: left;
+}
+
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(243, 234, 234);
+    border: 1px solid black;
+    box-shadow: 1px 1px 4px black;
+    /* margin: 5px; */
+    font-size: 25px;
+    /* padding: 2px; */
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between;
+     */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1{
+    background-color: aqua;
+    /* position: absolute; */
+}
+.box2{
+    background-color: blue;
+    /* position: fixed; */
+}
+.box3{
+    background-color: rgb(24, 99, 9);
+    margin-top: 20px;
+}
+
+.green{
+    background-color: green;
+    padding: 20px;
+    width: 250px;
+    height: 130px;
+}
+.red{
+    background-color: red;
+    /* padding: 20px; */
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 6%;
+    left: 25%;
+    border-radius: 60px;
+
+}
+
